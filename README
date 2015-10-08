@@ -1,0 +1,8 @@
+Compiling:
+
+# ${CROSS_COMPILE}gcc -o cbaud cbaud.c
+
+Usage:
+
+# ./cbaud <tty-dev> <custom-baud-rate>
+# ./cbaud /dev/ttyUSB0 3000
